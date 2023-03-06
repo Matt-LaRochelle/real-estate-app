@@ -46,7 +46,7 @@
         flex-direction: column;
         align-items: center;
         top: 90px;
-        right: -100%;
+        left: -100%;
         height: 100%;
         width: 100%;
         background: rgba(255, 255, 255, .98);
@@ -55,7 +55,7 @@
     }
 
     .navbar .active {
-        right: 0;
+        left: 0;
     }
 
     .navbar .nav-menu li a {
