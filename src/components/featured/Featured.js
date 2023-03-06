@@ -58,20 +58,20 @@ function Featured() {
 
             <div className='container'>
                 
-                <img src={Bed3} alt='' />
-                <img src={Bed4} alt='' />
+                <img className='order-2' src={Bed3} alt='' />
+                <img className='order-3' src={Bed4} alt='' />
 
-                <img className='span-3 image-grid-row-2' src={House2} alt='' />
+                <img className='span-3 image-grid-row-2 order-1' src={House2} alt='' />
 
-                <img src={Bathroom2} alt='' />
-                <img src={LivingRoom} alt='' />
+                <img className='order-4' src={Bathroom2} alt='' />
+                <img className='order-5' src={LivingRoom} alt='' />
 
-                <div className="span-2 right-img-details">
+                <div className="span-2 right-img-details order-7">
                     <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home in Texas. Including media room, workout facility, and built-in sauna.</p>
                     <button className="btn">View Listing</button>
                 </div>
 
-                <div className='span-3 img-details'>
+                <div className='span-3 img-details order-6'>
                     <div className='top'>
                         <h2> 123 Acme St. Dallas, TX</h2>
                         <p>House for Sale</p>
